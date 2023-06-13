@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2c04495fe2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+       <div class="search">
+        <input type="text" name="search" id="search_btn" placeholder="Enter city name">
+        <div id="search_icon">
+            <i class=" srch_icon fa-solid fa-magnifying-glass"></i>
+        </div> 
+        
+    </div>
+        
+        <div class="error">
+            Invalid City Name
+        </div>
+        
+
+        <div class="weather">
+            <img src="weather_icon.jpeg" class="weather_icon">
+            <p class="img_des"></p>
+            <h1 class="temp">Temprature</h1>
+            <h2 class="city">City Name</h2>
+            </div>
+
+            <div class="update">
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="humiditydes">
+                        <h4 class = "humi">60</h4>
+                        <h6>Humidity</h6>
+                    </div>
+                    
+
+                </div>
+
+                <div class="speed">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="speeddes">
+                        <h4 class = "wind_speed">18km/hr</h4>
+                        <h6>Wind speed</h6>
+                    </div>
+
+                </div>
+            </div>
+       
+       </div>
+
+       <script src="script.js"></script>
+    
+    
+</body>
+</html>
